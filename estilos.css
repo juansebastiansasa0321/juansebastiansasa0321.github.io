@@ -1,0 +1,227 @@
+
+    /* Estilos CSS */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+
+    header {
+      background-color: #333;
+      padding: 20px;
+      text-align: center;
+      width: 100%;
+    }
+
+    h1 {
+      color: #fff;
+      font-size: 24px;
+    }
+
+    .contenedor-main{
+      background-image: url(./fotos/WhatsApp\ Image\ 2023-01-21\ at\ 3.28.37\ PM.jpeg) ;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 6%;
+      background-attachment: fixed;
+      position: absolute;
+      z-index: 0;
+      opacity: 0.2;
+      padding: 20px;
+      height: 100vh;
+      width: 100%;
+
+      
+   
+    }
+
+    main {
+      padding: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      perspective: 1000px;
+      height: 400px;
+      margin-top: 10px;
+      
+    }
+    
+    .main-image {
+      z-index: 1;
+      width: 40%;
+      max-width: 400px;
+      height: 100%;
+      margin-right: 40px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      animation: slideIn 1s ease-in-out;
+      transform: translateZ(-50px);
+    }
+    .sebas {
+      max-width: 60%;
+      
+    }
+
+    .product-description {
+      
+      height: auto;
+      
+      animation: fadeIn 1s ease-in-out 0.5s forwards;
+      text-align: justify;
+      line-height: 1.5;
+      font-size: 110%
+      
+
+    }
+
+    .features {
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      z-index: 2;
+    }
+    
+    .feature {
+      background-color: white;
+      z-index: 1;
+      width: 30%;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      background-color: #fff;
+    }
+
+    .feature-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .feature-description {
+      padding: 10px;
+    }
+
+    .call-to-action {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .button {
+      z-index: 2;
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ff5f6d;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #ff3d50;
+    }
+
+    .map-container {
+      margin-top: 40px;
+      height: 400px;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    footer {
+      background-color: #333;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+      font-size: 130%;
+      height: 110%;
+      width: 100%;
+    }
+
+    
+    
+/* Animaciones */
+    
+    @keyframes slideIn {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    /* Estilos para pantallas pequeñas */
+
+
+    @media (max-width: 600px) {
+     
+    
+     
+          .product-description {
+            margin-top: 20px;
+            
+            animation: fadeIn 1s ease-in-out 0.5s forwards;
+            text-align: justify;
+            line-height: 1.5;
+            color:blue;
+            font-size: 100%;
+            
+      
+          }
+
+      .features {
+        justify-content: center;
+        
+      }
+      
+      .feature {
+        width: 100%;
+      }
+      }
+
+   
+    
+    @media  (max-width: 480px) {
+     
+    
+      
+      body{
+        width: 100%;
+      }
+      .product-description {
+        color:red;
+        font-size: 10px;
+
+        
+      }
+
+      .feature-description {
+        font-size: 12px;
+      }
+
+      .button {
+        font-size: 12px;
+      }
+      
+            footer {
+              font-size: 1px !important;
+              color: red;
+
+            }
+    } 
+  
