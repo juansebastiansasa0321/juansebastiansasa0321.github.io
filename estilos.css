@@ -17,7 +17,7 @@
 
     h1 {
       color: #fff;
-      font-size: 24px;
+      font-size: 27px;
     }
 
     .contenedor-main{
@@ -71,7 +71,7 @@
       animation: fadeIn 1s ease-in-out 0.5s forwards;
       text-align: justify;
       line-height: 1.5;
-      font-size: 110%
+      font-size: 120%
       
 
     }
