@@ -45,7 +45,7 @@
   }
 
   .contenedor-main{
-    background-image: url(./fotos/WhatsApp\ Image\ 2023-01-21\ at\ 3.28.37\ PM.jpeg) ;
+    background-image: url(./fotos/WhatsApp\ Image\ 2023-01-21\ at\ 3.28.37\ PM.jpeg)!important ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 6%;
@@ -165,7 +165,7 @@
   }
   .contenedor {
     padding: 50px;
-    background-image: url(https://github.com/juansebastiansasa0321/juansebastiansasa0321.github.io/blob/85daf4be34283fe75a5d2d48c7dd82e126834a9f/fotos/fondos.png?raw=true);
+    background-image: url(https://github.com/juansebastiansasa0321/juansebastiansasa0321.github.io/blob/85daf4be34283fe75a5d2d48c7dd82e126834a9f/fotos/fondos.png?raw=true) !important ;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -178,7 +178,7 @@
   }
   .contenedor1 {
     padding: 50px;
-    background-image: url(./fotos/salad.jpg);
+    background-image: url(./fotos/salad.jpg)!important;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
