@@ -46,8 +46,8 @@
 
   .contenedor-main{
     background-image: url(./fotos/WhatsApp\ Image\ 2023-01-21\ at\ 3.28.37\ PM.jpeg)!important ;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
     background-position: 6%;
     background-attachment: fixed;
     position: absolute;
@@ -168,7 +168,7 @@
     background-image: url(https://github.com/juansebastiansasa0321/juansebastiansasa0321.github.io/blob/85daf4be34283fe75a5d2d48c7dd82e126834a9f/fotos/fondos.png?raw=true) !important ;
     background-attachment: fixed;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
     width: 100%;
     height: 600px;
     background-position: center center;
@@ -179,9 +179,9 @@
   .contenedor1 {
     padding: 50px;
     background-image: url(./fotos/salad.jpg)!important;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
     width: 100%;
     height: 600px;
     background-position: center center;
@@ -314,8 +314,8 @@
   }
 
   .contenedor {
-    max-height: 350px;
-    background-size:contain;
+    max-height: 350px !important;
+    background-size:contain !important;
     padding: 0;
     position:relative;
     background-position: 0 25%;
@@ -326,8 +326,8 @@
    
   }
   .contenedor1 {
-    max-height: 350px;
-    background-size:contain;
+    max-height: 350px !important;
+    background-size:contain !important;
     padding: 0;
     position:relative;
     background-position: 0 25%;
