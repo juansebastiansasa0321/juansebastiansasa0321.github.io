@@ -1,4 +1,4 @@
-  /* Estilos CSS */
+/* Estilos CSS */
   body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -113,6 +113,8 @@
     grid-template-columns: 250px;
     grid-template-rows: 20px 20px;
     padding: 20px;
+
+    
    
   }
    i{
@@ -163,7 +165,7 @@
   }
   .contenedor {
     padding: 50px;
-    background-image: url(./fotos/fondo\ super.png);
+    background-image: url(./fotos/fondos.png);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -176,7 +178,7 @@
   }
   .contenedor1 {
     padding: 50px;
-    background-image: url(./fotos/saladoblealtura.jpg);
+    background-image: url(./fotos/salad.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
