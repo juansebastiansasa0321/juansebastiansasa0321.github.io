@@ -355,10 +355,19 @@ footer {
         flex-wrap: wrap;
       }
       .contenedor3{
-        display: none;
+        display: none !important;
       }
       .contenedor4{
-        display: none;
+        display: none !important;
+      }
+      .contenedor1{
+        display: none !important;
+      }
+      .contenedor2{
+        display: none !important;
+      }
+      .contenedor{
+        display: none !important;
       }
 
       
