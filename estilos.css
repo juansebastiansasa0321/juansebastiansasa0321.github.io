@@ -58,7 +58,7 @@ h1 {
 }
 
 .contenedor-main{
-  background-image: url(./fotos/WhatsApp\ Image\ 2023-01-21\ at\ 3.28.37\ PM.jpeg) ;
+  background-image: url(./fotos/WhatsApp\ Image\ 2023-01-21\ at\ 3.28.37\ PM.webp) ;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 6%;
@@ -180,7 +180,7 @@ descipcion en parrafo */
 }
 .contenedor {
   padding: 50px;
-  background-image: url(./fotos/fondos.png) !important;
+  background-image: url(./fotos/fondos.webp) !important;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -193,7 +193,7 @@ descipcion en parrafo */
 }
 .contenedor1 {
   padding: 50px;
-  background-image: url(./fotos/islacocinadetalle.jpg);
+  background-image: url(./fotos/islacocinadetalle.webp);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -205,7 +205,7 @@ descipcion en parrafo */
 }
 .contenedor2 {
   padding: 50px;
-  background-image: url(./fotos/IMG_1135.jpg);
+  background-image: url(./fotos/IMG_1135.webp);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -217,7 +217,7 @@ descipcion en parrafo */
 }
 .contenedor3 {
   padding: 50px;
-  background-image: url(./fotos/cocina_hall.jpg);
+  background-image: url(./fotos/cocina_hall.webp);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -229,7 +229,7 @@ descipcion en parrafo */
 }
 .contenedor4 {
   padding: 50px;
-  background-image: url(./fotos/piscinadia.jpeg);
+  background-image: url(./fotos/piscinadia.webp);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
