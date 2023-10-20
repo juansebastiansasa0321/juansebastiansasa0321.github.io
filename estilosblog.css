@@ -16,16 +16,7 @@ body{
     
 }
 
-.container-fluid{
-    
-    background-color: #ff3d50;
-    margin: 0px;
-    padding: 0px;
-}
-.container-fluid a{
-    
-    color: white;
-}
+
 
 p {
     text-align: justify;
